@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 from setuptools import setup, find_packages
 
 
@@ -26,6 +27,8 @@ setup(
         'Intended Audience :: Developers',
         'License :: Public Domain',
         'Operating System :: OS Independent',
-        'Programming Language :: Python'
+        'Programming Language :: Python',
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
     ]
 )

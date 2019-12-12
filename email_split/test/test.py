@@ -1,4 +1,5 @@
 # Load in our dependencies
+from __future__ import absolute_import
 from unittest import TestCase
 from email_split import email_split
 
